@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    background: rgb(44,0,87);
+    background: linear-gradient(180deg, rgba(44,0,87,1) 0%, rgba(4,66,102,1) 23%, rgba(6,176,210,1) 58%, rgba(252,252,252,1) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+.top-bar {
+    display: flex;
+    height: 20px;
+}
+.top-acessibilidade {
+    display: flex;
+    font-size: 10px;
+    margin: 5px;
+    border-right: 1px solid #ccc ;
+    padding-right: 10px;
+}
+.top-idioma {
+    display: flex;
+    color: #fff;
+    font-size: 10px;
+    margin: 5px;
+}
+.center-template {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template-left,
+.template-rigth {
+    flex:1;
+}
+.template-left {
+    margin-left: 10%;
+}
+.login-cadrasto {
+    width: 100%;
+    display: flex;
+    
+}
+.login-cadrasto div{
+    color: #fff;
+    font-size: 11px;
+    margin: 10px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.active {
+    border-bottom: 3px solid #00fff7;
+    cursor:default;
+}
+.active-non a{
+    cursor: pointer;
+    color: #b7b7b7;
+}
+form .inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 30px;
+}
+.inputs input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    width: 360px;
+}
+input::placeholder {
+    color: #ccc;
+}
+.inputs :first-child{
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    margin-bottom: 30px;
+}
+.links div a {
+    font-size: 11px;
+    margin-right: 60px;
+}
+.text {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+div .entrar-button {
+    display: flex;
+    margin-top: 10px;
+}
+div button {
+    background-color: #64005c;
+    color: #fff;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+.template-rigth .name-empresa {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.name-empresa h1 {
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name-empresa p {
+    color: #e2e2e2;
+    font-size: 20px;
+
+}
+footer {
+    height: 50px;
+    color: #000;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
