@@ -28,19 +28,15 @@
                     <a href="../index.html">LOGIN</a>
                 </div>
             </div>
-            <form action="get">
-                <div class="inputs">
-                    <label for="newuser"><input type="text" name="newuser" id="newsuser" placeholder="Nome de usuário" required></label>
-                    <label for="newpassword"><input type="newpassword" name="newpassword" id="newpassword" placeholder="Senha" required></label>
-                    <label for="e-mail"><input type="email" name="newemail" id="newemail" placeholder="E-mail" required></label>
-                    <label for="newtell"><input type="number" name="newtell" id="newtell" placeholder="Telefone" required></label>
-                </div>
-                
+            <div class="inputs">
+                <label for="newuser"><input type="text" name="newuser" id="newsuser" placeholder="Nome de usuário" required></label>
+                <label for="newpassword"><input type="newpassword" name="newpassword" id="newpassword" placeholder="Senha" required></label>
+                <label for="e-mail"><input type="email" name="newemail" id="newemail" placeholder="E-mail" required></label>
+                <label for="newtell"><input type="number" name="newtell" id="newtell" placeholder="Telefone" required></label>
+            </div>
                 <div class="entrar-button">
-                    <button type="submit">REGISTRAR</button>
-                </div>
-            </form>
-            
+                <button type="submit" onclick="registerFunc()">REGISTRAR</button>
+            </div>            
         </div>
         <div class="template-rigth">
             <div class="name-empresa">
@@ -56,4 +52,4 @@
 </footer>
 
 </html>
-<script src="./assets/js/index.js"></script>
+<script src="../assets/js/cadastro.js"></script>

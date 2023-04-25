@@ -65,7 +65,7 @@ body {
     cursor: pointer;
     color: #b7b7b7;
 }
-form .inputs {
+.campos .inputs {
     display: flex;
     flex-direction: column;
     margin: 5px;
@@ -140,4 +140,21 @@ footer {
 }
 #newemail {
     margin-bottom: 35px;
+}
+#newsuser {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.Title-test {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 60px;
 }
