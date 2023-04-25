@@ -31,10 +31,12 @@ body {
     margin: 5px;
 }
 .center-template {
+    max-width: 1000px;
     height: calc(100vh - 70px);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .template-left,
 .template-rigth {
@@ -75,6 +77,7 @@ form .inputs {
     border-bottom: 1px solid #fff;
     height: 30px;
     width: 360px;
+    color: #fff;
 }
 input::placeholder {
     color: #ccc;
@@ -131,4 +134,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#newpassword {
+    margin-bottom: 35px;
+}
+#newemail {
+    margin-bottom: 35px;
 }
